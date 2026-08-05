@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "updatedAt": "2026-08-05",
+  "films": [
+    {
+      "brand": "Kodak",
+      "name": "Gold 200",
+      "iso": 200,
+      "process": "C-41",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "negative",
+      "imageName": "kodak_gold_200",
+      "format": "35mm",
+      "description": "Kodak Gold 200 is a classic consumer color negative film with warm tones, pleasant contrast, and forgiving exposure latitude. It delivers vibrant colors and a nostalgic film look, making it a versatile choice for everyday photography and sunny outdoor scenes.",
+      "keyFeatures": [
+        "Warm, vibrant color rendition",
+        "ISO 200 daylight balanced",
+        "Wide exposure latitude",
+        "Classic nostalgic film look",
+        "Ideal for everyday photography"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["kodak|gold200"]
+    },
+    {
+      "brand": "Kodak",
+      "name": "Portra 400",
+      "iso": 400,
+      "process": "C-41",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "negative",
+      "imageName": "kodak_portra_400",
+      "format": "35mm",
+      "description": "Kodak Professional Portra 400 is a highly versatile color negative film known for natural color reproduction, soft contrast, and excellent skin tones. With fine grain and wide exposure latitude, it performs reliably in a wide range of lighting conditions and is widely used for portrait and lifestyle photography.",
+      "keyFeatures": [
+        "Natural color and excellent skin tones",
+        "Fine grain for ISO 400 film",
+        "Wide exposure latitude",
+        "Soft contrast and balanced colors",
+        "Ideal for portrait and people photography"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["kodak|portra400"]
+    },
+    {
+      "brand": "Kodak",
+      "name": "Ektar 100",
+      "iso": 100,
+      "process": "C-41",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "negative",
+      "imageName": "kodak_ektar_100",
+      "format": "35mm",
+      "description": "Kodak Professional Ektar 100 is a daylight-balanced color negative film known for extremely fine grain, high sharpness, and vibrant color saturation. It is especially well suited for landscape, nature, and scanning workflows where clean color and maximum detail are desired.",
+      "keyFeatures": [
+        "Ultra-fine grain color negative film",
+        "Very high sharpness and detail",
+        "Vivid color saturation",
+        "ISO 100 daylight balanced",
+        "Excellent for landscape and scanning"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": [
+        "kodak|professional ektar 100",
+        "kodak|kodak professional ektar 100"
+      ]
+    },
+    {
+      "brand": "Kodak",
+      "name": "Portra 160",
+      "iso": 160,
+      "process": "C-41",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "negative",
+      "imageName": "kodak_portra_160",
+      "format": "35mm",
+      "description": "Kodak Professional Portra 160 is a daylight-balanced color negative film with very fine grain, soft contrast, and especially natural skin tones. It is a strong choice for portrait, fashion, and commercial work when you want a clean and refined look.",
+      "keyFeatures": [
+        "Very fine grain",
+        "Natural and smooth skin tones",
+        "ISO 160 daylight balanced",
+        "Soft contrast and subtle color",
+        "Great for portrait and studio work"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["kodak|portra160"]
+    },
+    {
+      "brand": "Kodak",
+      "name": "UltraMax 400",
+      "iso": 400,
+      "process": "C-41",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "negative",
+      "imageName": "kodak_ultramax_400",
+      "format": "35mm",
+      "description": "Kodak UltraMax 400 is a flexible consumer color negative film designed for everyday shooting in a wide range of lighting conditions. Its higher speed, bright color, and forgiving character make it a practical choice for travel, family, and general use.",
+      "keyFeatures": [
+        "ISO 400 for flexible shooting",
+        "Bright saturated colors",
+        "Good for mixed lighting",
+        "Easy everyday film choice",
+        "Useful for travel and snapshots"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["kodak|ultra max 400", "kodak|ultramax400"]
+    },
+    {
+      "brand": "Kodak",
+      "name": "ColorPlus 200",
+      "iso": 200,
+      "process": "C-41",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "negative",
+      "imageName": "kodak_colorplus_200",
+      "format": "35mm",
+      "description": "Kodak ColorPlus 200 is an affordable consumer color negative film with a simple, classic look and pleasant warm color. It is well suited for casual shooting, daylight photography, and anyone who wants an easy entry point into 35mm film.",
+      "keyFeatures": [
+        "Affordable everyday color film",
+        "Warm classic color rendering",
+        "ISO 200 daylight balanced",
+        "Easy to shoot in sunlight",
+        "Good beginner-friendly option"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["kodak|colorplus200"]
+    },
+    {
+      "brand": "CineStill",
+      "name": "800T",
+      "iso": 800,
+      "process": "C-41",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "negative",
+      "imageName": "cinestill_800t",
+      "format": "35mm",
+      "description": "CineStill 800T is a tungsten-balanced color negative film made for low light, night scenes, and artificial lighting. It is known for its cinematic look, strong neon response, and distinctive halation around bright highlights.",
+      "keyFeatures": [
+        "Tungsten balanced for artificial light",
+        "ISO 800 low-light performer",
+        "Cinematic night-time look",
+        "Distinctive halation around highlights",
+        "Great for neon and city scenes"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": [
+        "cinestill|800 tungsten",
+        "cinestill|800 tungsten 35mm",
+        "cinestill|cinestill 800t",
+        "cinestill|800tungsten"
+      ]
+    },
+    {
+      "brand": "CineStill",
+      "name": "400D",
+      "iso": 400,
+      "process": "C-41",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "negative",
+      "imageName": "cinestill_400d",
+      "format": "35mm",
+      "description": "CineStill 400D is a daylight-balanced color negative film with fine grain, warm skin tones, and a wide dynamic range. It is designed to be highly versatile and works well for everything from daylight street shooting to indoor available light photography.",
+      "keyFeatures": [
+        "Daylight balanced color negative film",
+        "ISO 400 versatile speed",
+        "Fine grain and warm skin tones",
+        "Wide dynamic range",
+        "Works well indoors and outdoors"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["cinestill|cinestill 400d"]
+    },
+    {
+      "brand": "Ilford",
+      "name": "HP5 Plus 400",
+      "iso": 400,
+      "process": "B&W",
+      "isColor": false,
+      "defaultFrames": 36,
+      "profile": "blackWhite",
+      "imageName": "ilford_hp5_plus_400",
+      "format": "35mm",
+      "description": "Ilford HP5 Plus 400 is a classic black and white film known for flexibility, dependable contrast, and strong push-processing performance. It is a favorite for documentary, street, travel, and low-light photography.",
+      "keyFeatures": [
+        "Classic ISO 400 black and white film",
+        "Fine grain with medium contrast",
+        "Very flexible exposure handling",
+        "Pushes well to higher speeds",
+        "Great for street and documentary work"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["ilford|hp5 plus", "ilford|hp5+", "ilford|hp5 plus 35mm"]
+    },
+    {
+      "brand": "Ilford",
+      "name": "Delta 100 Professional",
+      "iso": 100,
+      "process": "B&W",
+      "isColor": false,
+      "defaultFrames": 36,
+      "profile": "blackWhite",
+      "imageName": "ilford_delta_100_professional",
+      "format": "35mm",
+      "description": "Ilford Delta 100 Professional is a fine-grain black and white film built for maximum sharpness and clean tonality. It is especially well suited for landscapes, architecture, and detail-rich scenes where image quality is the priority.",
+      "keyFeatures": [
+        "Very fine grain black and white film",
+        "High sharpness and detail",
+        "ISO 100 medium-speed film",
+        "Clean tonal rendering",
+        "Excellent for landscapes and fine detail"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["ilford|delta 100", "ilford|delta100"]
+    },
+    {
+      "brand": "Ilford",
+      "name": "XP2 Super 400",
+      "iso": 400,
+      "process": "C-41",
+      "isColor": false,
+      "defaultFrames": 36,
+      "profile": "blackWhite",
+      "imageName": "ilford_xp2_super_400",
+      "format": "35mm",
+      "description": "Ilford XP2 Super 400 is a black and white film with fine grain, wide tonal range, and excellent exposure latitude. It is an easy all-round choice for photographers who want monochrome results with a forgiving and versatile character.",
+      "keyFeatures": [
+        "Fine grain black and white film",
+        "Wide tonal range",
+        "Very forgiving exposure latitude",
+        "ISO 400 all-round performer",
+        "Versatile in changing light"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["ilford|xp2 super", "ilford|xp2"]
+    },
+    {
+      "brand": "Fujifilm",
+      "name": "200",
+      "iso": 200,
+      "process": "C-41",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "negative",
+      "imageName": "fujifilm_200",
+      "format": "35mm",
+      "description": "Fujifilm 200 is a daylight-balanced color negative film that offers fine grain, natural color, and wide exposure latitude. It is a dependable everyday film for general shooting, travel, and bright outdoor conditions.",
+      "keyFeatures": [
+        "Fine grain everyday color film",
+        "ISO 200 daylight balanced",
+        "Wide exposure latitude",
+        "Natural color reproduction",
+        "Reliable for travel and daily shooting"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["fuji|200", "fujicolor|200", "fuji|fujicolor 200"]
+    },
+    {
+      "brand": "Fujifilm",
+      "name": "Pro 400H",
+      "iso": 400,
+      "process": "C-41",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "negative",
+      "imageName": "fujifilm_pro_400h",
+      "format": "35mm",
+      "description": "Fujifilm Pro 400H is a professional color negative film known for soft color, wide latitude, and beautiful skin tones. It has long been appreciated for portrait, wedding, and natural-light photography where a gentle and airy look is desired.",
+      "keyFeatures": [
+        "Professional ISO 400 color film",
+        "Soft and gentle color palette",
+        "Wide exposure latitude",
+        "Beautiful skin tone reproduction",
+        "Great for portrait and wedding work"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": [
+        "fuji|pro 400h",
+        "fujicolor|pro 400h",
+        "fuji|fuji pro 400h"
+      ]
+    },
+
+    {
+      "brand": "Kodak",
+      "name": "Tri-X 400",
+      "iso": 400,
+      "process": "B&W",
+      "isColor": false,
+      "defaultFrames": 36,
+      "profile": "blackWhite",
+      "format": "35mm",
+      "description": "Kodak Professional Tri-X 400 is a classic black and white film known for pronounced grain, strong contrast, and exceptional push-processing performance. It has been a staple of documentary, street, and reportage photography for decades and holds up well in difficult light.",
+      "keyFeatures": [
+        "Iconic ISO 400 black and white film",
+        "Pronounced grain and strong contrast",
+        "Pushes exceptionally well to 1600 and beyond",
+        "Dependable in difficult lighting",
+        "A staple of documentary and street work"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["kodak|trix 400", "kodak|tri x 400", "kodak|400tx"]
+    },
+    {
+      "brand": "Kodak",
+      "name": "T-Max 400",
+      "iso": 400,
+      "process": "B&W",
+      "isColor": false,
+      "defaultFrames": 36,
+      "profile": "blackWhite",
+      "format": "35mm",
+      "description": "Kodak Professional T-Max 400 is a modern black and white film built on a T-grain emulsion, giving noticeably finer grain and higher sharpness than traditional films of the same speed. It suits photographers who want ISO 400 flexibility with a clean, detailed rendering.",
+      "keyFeatures": [
+        "Modern T-grain emulsion",
+        "Very fine grain for ISO 400",
+        "High sharpness and detail",
+        "Clean, neutral tonality",
+        "Pushes well when needed"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["kodak|tmax 400", "kodak|t max 400"]
+    },
+    {
+      "brand": "Kodak",
+      "name": "Portra 800",
+      "iso": 800,
+      "process": "C-41",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "negative",
+      "format": "35mm",
+      "description": "Kodak Professional Portra 800 is the fastest film in the Portra family, made for low light and indoor work while keeping the natural skin tones the line is known for. It buys extra shutter speed when light runs short, with finer grain than its speed would suggest.",
+      "keyFeatures": [
+        "ISO 800 for low light",
+        "Natural Portra skin tones",
+        "Finer grain than expected at this speed",
+        "Good for indoor and evening work",
+        "Wide exposure latitude"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["kodak|portra800"]
+    },
+    {
+      "brand": "Kodak",
+      "name": "Ektachrome E100",
+      "iso": 100,
+      "process": "E-6",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "slide",
+      "format": "35mm",
+      "description": "Kodak Professional Ektachrome E100 is a daylight-balanced color reversal film with clean neutral color, extremely fine grain, and moderate contrast. Relaunched in 2018, it offers a more restrained alternative to heavily saturated slide films.",
+      "keyFeatures": [
+        "ISO 100 color slide film",
+        "Clean, neutral color rendition",
+        "Extremely fine grain",
+        "Moderate, controlled contrast",
+        "A restrained alternative to Velvia"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["kodak|e100", "kodak|ektachrome 100"]
+    },
+    {
+      "brand": "Ilford",
+      "name": "FP4 Plus 125",
+      "iso": 125,
+      "process": "B&W",
+      "isColor": false,
+      "defaultFrames": 36,
+      "profile": "blackWhite",
+      "format": "35mm",
+      "description": "Ilford FP4 Plus 125 is a medium-speed black and white film with fine grain, high sharpness, and a classic traditional look. Its wide exposure latitude makes it forgiving to shoot and a strong choice for landscape, still life, and studio work.",
+      "keyFeatures": [
+        "Medium-speed ISO 125 film",
+        "Fine grain and high sharpness",
+        "Classic traditional tonality",
+        "Wide exposure latitude",
+        "Well suited to landscape and studio"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["ilford|fp4 plus", "ilford|fp4"]
+    },
+    {
+      "brand": "Ilford",
+      "name": "Pan F Plus 50",
+      "iso": 50,
+      "process": "B&W",
+      "isColor": false,
+      "defaultFrames": 36,
+      "profile": "blackWhite",
+      "format": "35mm",
+      "description": "Ilford Pan F Plus 50 is a slow black and white film delivering extremely fine grain and outstanding sharpness. The low speed asks for good light or a tripod, and rewards it with very clean, detailed negatives.",
+      "keyFeatures": [
+        "Extremely fine grain",
+        "Outstanding sharpness and detail",
+        "ISO 50 slow-speed film",
+        "Best in bright light or on a tripod",
+        "Excellent for landscape and fine detail"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["ilford|pan f plus", "ilford|pan f"]
+    },
+    {
+      "brand": "Ilford",
+      "name": "Delta 3200 Professional",
+      "iso": 3200,
+      "process": "B&W",
+      "isColor": false,
+      "defaultFrames": 36,
+      "profile": "blackWhite",
+      "format": "35mm",
+      "description": "Ilford Delta 3200 Professional is a high-speed black and white film designed to be rated at EI 3200, though its true sensitivity sits closer to ISO 1000. It makes handheld shooting possible well after dark, at the cost of pronounced grain.",
+      "keyFeatures": [
+        "High-speed film for very low light",
+        "Designed to be rated at EI 3200",
+        "True speed closer to ISO 1000",
+        "Pronounced, characterful grain",
+        "Handheld shooting after dark"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["ilford|delta 3200", "ilford|delta3200"]
+    },
+    {
+      "brand": "Kentmere",
+      "name": "Pan 400",
+      "iso": 400,
+      "process": "B&W",
+      "isColor": false,
+      "defaultFrames": 36,
+      "profile": "blackWhite",
+      "format": "35mm",
+      "description": "Kentmere Pan 400 is an affordable black and white film from Harman offering medium contrast, moderate grain, and dependable results. It is a practical everyday option for shooters who want to work through a lot of film without a high cost per roll.",
+      "keyFeatures": [
+        "Affordable ISO 400 black and white film",
+        "Medium contrast and moderate grain",
+        "Made by Harman, makers of Ilford film",
+        "Good general-purpose choice",
+        "Practical for high-volume shooting"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["kentmere|400", "kentmere|pan400"]
+    },
+    {
+      "brand": "Fujifilm",
+      "name": "Velvia 50",
+      "iso": 50,
+      "process": "E-6",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "slide",
+      "format": "35mm",
+      "description": "Fujifilm Velvia 50 is a daylight-balanced color reversal film celebrated for extremely high saturation, punchy contrast, and very fine grain. Its narrow exposure latitude demands accurate metering, which is part of why it has such a devoted following among landscape photographers.",
+      "keyFeatures": [
+        "ISO 50 color slide film",
+        "Extremely saturated, vivid color",
+        "High contrast and very fine grain",
+        "Narrow latitude, needs accurate exposure",
+        "A landscape photography favorite"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["fuji|velvia 50", "fujichrome|velvia 50", "fuji|velvia"]
+    },
+    {
+      "brand": "Fujifilm",
+      "name": "Provia 100F",
+      "iso": 100,
+      "process": "E-6",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "slide",
+      "format": "35mm",
+      "description": "Fujifilm Provia 100F is a daylight-balanced color reversal film with natural color, extremely fine grain, and more forgiving contrast than Velvia. It is the more versatile of Fujifilm's slide films and handles portraits, travel, and general work well.",
+      "keyFeatures": [
+        "ISO 100 color slide film",
+        "Natural, neutral color rendition",
+        "Extremely fine grain",
+        "More forgiving than Velvia",
+        "Versatile for travel and portraits"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["fuji|provia 100f", "fujichrome|provia 100f", "fuji|provia"]
+    },
+    {
+      "brand": "Harman",
+      "name": "Phoenix 200",
+      "iso": 200,
+      "process": "C-41",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "negative",
+      "format": "35mm",
+      "description": "Harman Phoenix 200 is Harman's own color negative film, made in the UK and released as an openly experimental product. It gives high contrast, strong grain, and vivid unconventional color, with narrow latitude that rewards careful exposure in good light.",
+      "keyFeatures": [
+        "Experimental ISO 200 color negative film",
+        "High contrast and strong grain",
+        "Vivid, unconventional color",
+        "Narrow exposure latitude",
+        "Made in the UK by Harman"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["harman|phoenix", "harman|phoenix200"]
+    },
+    {
+      "brand": "Lomography",
+      "name": "Color Negative 400",
+      "iso": 400,
+      "process": "C-41",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "negative",
+      "format": "35mm",
+      "description": "Lomography Color Negative 400 is a versatile daylight-balanced color negative film with saturated color, fine grain, and good exposure latitude. It handles a wide range of light and suits everyday shooting, travel, and street photography.",
+      "keyFeatures": [
+        "ISO 400 all-round color film",
+        "Saturated, punchy color",
+        "Fine grain for its speed",
+        "Good exposure latitude",
+        "Versatile for travel and street"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": ["lomography|cn 400", "lomo|color negative 400"]
+    }
+  ]
+}

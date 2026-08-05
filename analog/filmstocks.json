@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 1,
+  "catalogVersion": 2,
   "updatedAt": "2026-08-05",
   "films": [
     {
@@ -23,7 +23,9 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["kodak|gold200"]
+      "aliases": [
+        "kodak|gold200"
+      ]
     },
     {
       "brand": "Kodak",
@@ -45,7 +47,9 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["kodak|portra400"]
+      "aliases": [
+        "kodak|portra400"
+      ]
     },
     {
       "brand": "Kodak",
@@ -92,7 +96,9 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["kodak|portra160"]
+      "aliases": [
+        "kodak|portra160"
+      ]
     },
     {
       "brand": "Kodak",
@@ -114,7 +120,10 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["kodak|ultra max 400", "kodak|ultramax400"]
+      "aliases": [
+        "kodak|ultra max 400",
+        "kodak|ultramax400"
+      ]
     },
     {
       "brand": "Kodak",
@@ -136,7 +145,9 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["kodak|colorplus200"]
+      "aliases": [
+        "kodak|colorplus200"
+      ]
     },
     {
       "brand": "CineStill",
@@ -185,7 +196,9 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["cinestill|cinestill 400d"]
+      "aliases": [
+        "cinestill|cinestill 400d"
+      ]
     },
     {
       "brand": "Ilford",
@@ -207,7 +220,11 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["ilford|hp5 plus", "ilford|hp5+", "ilford|hp5 plus 35mm"]
+      "aliases": [
+        "ilford|hp5 plus",
+        "ilford|hp5+",
+        "ilford|hp5 plus 35mm"
+      ]
     },
     {
       "brand": "Ilford",
@@ -229,7 +246,10 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["ilford|delta 100", "ilford|delta100"]
+      "aliases": [
+        "ilford|delta 100",
+        "ilford|delta100"
+      ]
     },
     {
       "brand": "Ilford",
@@ -251,7 +271,10 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["ilford|xp2 super", "ilford|xp2"]
+      "aliases": [
+        "ilford|xp2 super",
+        "ilford|xp2"
+      ]
     },
     {
       "brand": "Fujifilm",
@@ -273,7 +296,11 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["fuji|200", "fujicolor|200", "fuji|fujicolor 200"]
+      "aliases": [
+        "fuji|200",
+        "fujicolor|200",
+        "fuji|fujicolor 200"
+      ]
     },
     {
       "brand": "Fujifilm",
@@ -301,7 +328,6 @@
         "fuji|fuji pro 400h"
       ]
     },
-
     {
       "brand": "Kodak",
       "name": "Tri-X 400",
@@ -321,7 +347,11 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["kodak|trix 400", "kodak|tri x 400", "kodak|400tx"]
+      "aliases": [
+        "kodak|trix 400",
+        "kodak|tri x 400",
+        "kodak|400tx"
+      ]
     },
     {
       "brand": "Kodak",
@@ -342,7 +372,10 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["kodak|tmax 400", "kodak|t max 400"]
+      "aliases": [
+        "kodak|tmax 400",
+        "kodak|t max 400"
+      ]
     },
     {
       "brand": "Kodak",
@@ -363,7 +396,9 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["kodak|portra800"]
+      "aliases": [
+        "kodak|portra800"
+      ]
     },
     {
       "brand": "Kodak",
@@ -384,7 +419,10 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["kodak|e100", "kodak|ektachrome 100"]
+      "aliases": [
+        "kodak|e100",
+        "kodak|ektachrome 100"
+      ]
     },
     {
       "brand": "Ilford",
@@ -405,7 +443,10 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["ilford|fp4 plus", "ilford|fp4"]
+      "aliases": [
+        "ilford|fp4 plus",
+        "ilford|fp4"
+      ]
     },
     {
       "brand": "Ilford",
@@ -426,7 +467,10 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["ilford|pan f plus", "ilford|pan f"]
+      "aliases": [
+        "ilford|pan f plus",
+        "ilford|pan f"
+      ]
     },
     {
       "brand": "Ilford",
@@ -447,7 +491,10 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["ilford|delta 3200", "ilford|delta3200"]
+      "aliases": [
+        "ilford|delta 3200",
+        "ilford|delta3200"
+      ]
     },
     {
       "brand": "Kentmere",
@@ -468,7 +515,10 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["kentmere|400", "kentmere|pan400"]
+      "aliases": [
+        "kentmere|400",
+        "kentmere|pan400"
+      ]
     },
     {
       "brand": "Fujifilm",
@@ -489,7 +539,11 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["fuji|velvia 50", "fujichrome|velvia 50", "fuji|velvia"]
+      "aliases": [
+        "fuji|velvia 50",
+        "fujichrome|velvia 50",
+        "fuji|velvia"
+      ]
     },
     {
       "brand": "Fujifilm",
@@ -510,7 +564,11 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["fuji|provia 100f", "fujichrome|provia 100f", "fuji|provia"]
+      "aliases": [
+        "fuji|provia 100f",
+        "fujichrome|provia 100f",
+        "fuji|provia"
+      ]
     },
     {
       "brand": "Harman",
@@ -531,7 +589,10 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["harman|phoenix", "harman|phoenix200"]
+      "aliases": [
+        "harman|phoenix",
+        "harman|phoenix200"
+      ]
     },
     {
       "brand": "Lomography",
@@ -552,7 +613,380 @@
       ],
       "dataSheetURL": null,
       "discontinued": false,
-      "aliases": ["lomography|cn 400", "lomo|color negative 400"]
+      "aliases": [
+        "lomography|cn 400",
+        "lomo|color negative 400"
+      ]
+    },
+    {
+      "brand": "Fujifilm",
+      "name": "Superia X-TRA 400",
+      "iso": 400,
+      "process": "C-41",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "negative",
+      "format": "35mm",
+      "description": "Fujifilm Superia X-TRA 400 is a daylight-balanced color negative film with punchy color, fine grain for its speed, and wide exposure latitude. It handles mixed and indoor lighting better than most consumer films, which has made it a long-standing all-round choice.",
+      "keyFeatures": [
+        "Versatile ISO 400 color film",
+        "Punchy, saturated color",
+        "Fine grain for its speed",
+        "Handles mixed lighting well",
+        "A long-standing all-round choice"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": [
+        "fuji|superia x-tra 400",
+        "fujifilm|superia 400",
+        "fuji|superia 400",
+        "fujicolor|superia x-tra 400"
+      ]
+    },
+    {
+      "brand": "Kodak",
+      "name": "T-Max 100",
+      "iso": 100,
+      "process": "B&W",
+      "isColor": false,
+      "defaultFrames": 36,
+      "profile": "blackWhite",
+      "format": "35mm",
+      "description": "Kodak Professional T-Max 100 is a slow black and white film built on a T-grain emulsion, delivering extremely fine grain and very high sharpness. It is a strong choice when detail matters most, such as landscape, architecture, and studio work.",
+      "keyFeatures": [
+        "Extremely fine grain",
+        "Very high sharpness and detail",
+        "ISO 100 T-grain emulsion",
+        "Clean, neutral tonality",
+        "Excellent for landscape and studio"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": [
+        "kodak|tmax 100",
+        "kodak|t max 100",
+        "kodak|100tmx"
+      ]
+    },
+    {
+      "brand": "Ilford",
+      "name": "Delta 400 Professional",
+      "iso": 400,
+      "process": "B&W",
+      "isColor": false,
+      "defaultFrames": 36,
+      "profile": "blackWhite",
+      "format": "35mm",
+      "description": "Ilford Delta 400 Professional is a black and white film using a core-shell emulsion to give finer grain and higher sharpness than traditional films of the same speed. It sits between Delta 100 and Delta 3200 as the flexible middle option in the range.",
+      "keyFeatures": [
+        "ISO 400 core-shell emulsion",
+        "Finer grain than traditional ISO 400 film",
+        "High sharpness and detail",
+        "Pushes well to 1600",
+        "The flexible middle of the Delta range"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": [
+        "ilford|delta 400",
+        "ilford|delta400"
+      ]
+    },
+    {
+      "brand": "CineStill",
+      "name": "50D",
+      "iso": 50,
+      "process": "C-41",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "negative",
+      "format": "35mm",
+      "description": "CineStill 50D is a daylight-balanced color negative film with extremely fine grain, high sharpness, and natural color. As the slowest film in the CineStill line it is made for bright light, and rewards it with the cleanest results of the three.",
+      "keyFeatures": [
+        "ISO 50 daylight balanced",
+        "Extremely fine grain",
+        "High sharpness and clean color",
+        "Made for bright daylight",
+        "The finest-grained CineStill film"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": [
+        "cinestill|cinestill 50d",
+        "cinestill|50 daylight"
+      ]
+    },
+    {
+      "brand": "Fujifilm",
+      "name": "Acros II 100",
+      "iso": 100,
+      "process": "B&W",
+      "isColor": false,
+      "defaultFrames": 36,
+      "profile": "blackWhite",
+      "format": "35mm",
+      "description": "Fujifilm Neopan 100 Acros II is a fine-grain black and white film known for smooth tonality, high sharpness, and outstanding reciprocity characteristics. It holds exposure remarkably well on very long shutter times, making it a favorite for night and long-exposure work.",
+      "keyFeatures": [
+        "Very fine grain black and white film",
+        "Smooth, refined tonality",
+        "ISO 100 medium-speed film",
+        "Outstanding reciprocity on long exposures",
+        "A favorite for night photography"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": [
+        "fujifilm|neopan 100 acros ii",
+        "fuji|acros ii 100",
+        "fuji|acros ii",
+        "fujifilm|acros ii"
+      ]
+    },
+    {
+      "brand": "Kodak",
+      "name": "ProImage 100",
+      "iso": 100,
+      "process": "C-41",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "negative",
+      "format": "35mm",
+      "description": "Kodak ProImage 100 is a daylight-balanced color negative film with fine grain, natural skin tones, and good stability in warm weather. Originally made for professional portrait work in hot climates, it has become a popular affordable everyday film.",
+      "keyFeatures": [
+        "ISO 100 daylight balanced",
+        "Fine grain and natural skin tones",
+        "Stable in warm climates",
+        "Affordable professional film",
+        "Good for portraits and daylight"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": [
+        "kodak|pro image 100",
+        "kodak|proimage100"
+      ]
+    },
+    {
+      "brand": "Foma",
+      "name": "Fomapan 100 Classic",
+      "iso": 100,
+      "process": "B&W",
+      "isColor": false,
+      "defaultFrames": 36,
+      "profile": "blackWhite",
+      "format": "35mm",
+      "description": "Fomapan 100 Classic is an affordable traditional black and white film from the Czech Republic with fine grain and a classic tonal look. Its old-style emulsion gives a distinctly vintage rendering at a low cost per roll.",
+      "keyFeatures": [
+        "Affordable ISO 100 black and white film",
+        "Traditional cubic-grain emulsion",
+        "Fine grain and classic tonality",
+        "Distinctly vintage rendering",
+        "Made by Foma in the Czech Republic"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": [
+        "fomapan|100 classic",
+        "fomapan|100",
+        "foma|100"
+      ]
+    },
+    {
+      "brand": "Foma",
+      "name": "Fomapan 400 Action",
+      "iso": 400,
+      "process": "B&W",
+      "isColor": false,
+      "defaultFrames": 36,
+      "profile": "blackWhite",
+      "format": "35mm",
+      "description": "Fomapan 400 Action is an affordable high-speed black and white film with a traditional emulsion and noticeable grain. It is made for handheld shooting in poorer light and suits documentary and street work on a budget.",
+      "keyFeatures": [
+        "Affordable ISO 400 black and white film",
+        "Traditional emulsion with visible grain",
+        "Made for handheld low-light shooting",
+        "Good for street and documentary",
+        "Made by Foma in the Czech Republic"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": [
+        "fomapan|400 action",
+        "fomapan|400",
+        "foma|400"
+      ]
+    },
+    {
+      "brand": "Kentmere",
+      "name": "Pan 100",
+      "iso": 100,
+      "process": "B&W",
+      "isColor": false,
+      "defaultFrames": 36,
+      "profile": "blackWhite",
+      "format": "35mm",
+      "description": "Kentmere Pan 100 is an affordable medium-speed black and white film from Harman with fine grain and moderate contrast. It pairs with Pan 400 as the slower, cleaner option for good light.",
+      "keyFeatures": [
+        "Affordable ISO 100 black and white film",
+        "Fine grain and moderate contrast",
+        "Made by Harman, makers of Ilford film",
+        "The slower half of the Kentmere pair",
+        "Best in good light"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": [
+        "kentmere|100",
+        "kentmere|pan100"
+      ]
+    },
+    {
+      "brand": "Lomography",
+      "name": "Color Negative 800",
+      "iso": 800,
+      "process": "C-41",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "negative",
+      "format": "35mm",
+      "description": "Lomography Color Negative 800 is a high-speed daylight-balanced color negative film with saturated color and surprisingly fine grain for its speed. It extends shooting into evening and indoor light without giving up the punchy Lomography look.",
+      "keyFeatures": [
+        "ISO 800 for low light",
+        "Saturated, punchy color",
+        "Fine grain for its speed",
+        "Good indoors and after dark",
+        "Wide exposure latitude"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": [
+        "lomography|cn 800",
+        "lomo|color negative 800"
+      ]
+    },
+    {
+      "brand": "CineStill",
+      "name": "BwXX 250",
+      "iso": 250,
+      "process": "B&W",
+      "isColor": false,
+      "defaultFrames": 36,
+      "profile": "blackWhite",
+      "format": "35mm",
+      "description": "CineStill BwXX is Kodak's Double-X motion picture stock, a traditional black and white film that has been in continuous production since 1959. It gives classic grain and rich contrast, and is rated ISO 250 in daylight and 200 under tungsten light.",
+      "keyFeatures": [
+        "Kodak Double-X motion picture stock",
+        "In production since 1959",
+        "Classic grain and rich contrast",
+        "ISO 250 daylight, 200 tungsten",
+        "Pushes well for night work"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": [
+        "cinestill|bwxx",
+        "cinestill|double-x",
+        "cinestill|double x 250",
+        "cinestill|xx"
+      ]
+    },
+    {
+      "brand": "Ilford",
+      "name": "SFX 200",
+      "iso": 200,
+      "process": "B&W",
+      "isColor": false,
+      "defaultFrames": 36,
+      "profile": "blackWhite",
+      "format": "35mm",
+      "description": "Ilford SFX 200 is a medium-speed black and white film with extended sensitivity into the near-infrared. Used with a deep red filter it renders foliage bright and skies dark, producing a distinctive surreal effect that ordinary film cannot.",
+      "keyFeatures": [
+        "ISO 200 black and white film",
+        "Extended near-infrared sensitivity",
+        "Dramatic effects with a red filter",
+        "Bright foliage and dark skies",
+        "Shoots normally without a filter"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": [
+        "ilford|sfx",
+        "ilford|sfx200"
+      ]
+    },
+    {
+      "brand": "Ilford",
+      "name": "Ortho Plus 80",
+      "iso": 80,
+      "process": "B&W",
+      "isColor": false,
+      "defaultFrames": 36,
+      "profile": "blackWhite",
+      "format": "35mm",
+      "description": "Ilford Ortho Plus 80 is an orthochromatic black and white film that is insensitive to red light, rendering reds much darker than a normal film would. It has extremely fine grain and high sharpness, and can be developed under a red safelight.",
+      "keyFeatures": [
+        "ISO 80 orthochromatic film",
+        "Insensitive to red light",
+        "Extremely fine grain and sharpness",
+        "Distinctive tonal rendering",
+        "Can be developed under a red safelight"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": [
+        "ilford|ortho plus",
+        "ilford|ortho 80"
+      ]
+    },
+    {
+      "brand": "Lomography",
+      "name": "LomoChrome Purple",
+      "iso": 400,
+      "process": "C-41",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "negative",
+      "format": "35mm",
+      "description": "LomoChrome Purple is a color-shifting negative film that turns greens into vivid purples and alters the rest of the palette in unpredictable ways. It has no single correct speed and is meant to be rated anywhere from ISO 100 to 400, with higher ratings giving stronger color shifts.",
+      "keyFeatures": [
+        "Color-shifting effect film",
+        "Turns green foliage vivid purple",
+        "Rate anywhere from ISO 100 to 400",
+        "Higher ratings give stronger shifts",
+        "Results are deliberately unpredictable"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": [
+        "lomography|lomochrome purple 100-400",
+        "lomo|lomochrome purple",
+        "lomography|purple"
+      ]
+    },
+    {
+      "brand": "Fujifilm",
+      "name": "Velvia 100",
+      "iso": 100,
+      "process": "E-6",
+      "isColor": true,
+      "defaultFrames": 36,
+      "profile": "slide",
+      "format": "35mm",
+      "description": "Fujifilm Velvia 100 is a daylight-balanced color reversal film with high saturation and fine grain, offering a stop more speed than Velvia 50 with slightly gentler contrast. It keeps the vivid Velvia character while being a little easier to shoot handheld.",
+      "keyFeatures": [
+        "ISO 100 color slide film",
+        "High saturation and vivid color",
+        "Extremely fine grain",
+        "A stop faster than Velvia 50",
+        "Slightly gentler contrast than Velvia 50"
+      ],
+      "dataSheetURL": null,
+      "discontinued": false,
+      "aliases": [
+        "fuji|velvia 100",
+        "fujichrome|velvia 100"
+      ]
     }
   ]
 }

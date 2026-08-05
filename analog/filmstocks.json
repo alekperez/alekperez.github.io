@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 2,
+  "catalogVersion": 3,
   "updatedAt": "2026-08-05",
   "films": [
     {
@@ -321,7 +321,7 @@
         "Great for portrait and wedding work"
       ],
       "dataSheetURL": null,
-      "discontinued": false,
+      "discontinued": true,
       "aliases": [
         "fuji|pro 400h",
         "fujicolor|pro 400h",

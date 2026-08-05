@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 5,
+  "catalogVersion": 6,
   "updatedAt": "2026-08-05",
   "films": [
     {
@@ -336,7 +336,7 @@
       "isColor": false,
       "defaultFrames": 36,
       "profile": "blackWhite",
-      "imageURL": "https://alekperez.github.io/analog/films/_test.png",
+      "imageURL": "https://alekperez.github.io/analog/films/test-image.png",
       "format": "35mm",
       "description": "Kodak Professional Tri-X 400 is a classic black and white film known for pronounced grain, strong contrast, and exceptional push-processing performance. It has been a staple of documentary, street, and reportage photography for decades and holds up well in difficult light.",
       "keyFeatures": [

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AnaLog – Support</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial;
+      background: #f5f5f7;
+      color: #1d1d1f;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 14px;
+      padding: 24px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    }
+
+    h1, h2 {
+      margin-top: 0;
+    }
+
+    h2 {
+      margin-top: 28px;
+    }
+
+    a {
+      color: #0071e3;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #f0f0f2;
+      color: #3a3a3c;
+      font-size: 13px;
+      margin: 4px 6px 0 0;
+    }
+
+    .q {
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+
+    .q + p {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>AnaLog – Support</h1>
+
+    <p><strong>Welcome.</strong></p>
+    <p>
+      AnaLog is a logbook for film photography: track a roll from the fridge
+      through loading, shooting, the lab and scanning, log each frame with its
+      exposure, and export the whole roll's metadata to Lightroom or Capture One
+      when the scans come back.
+    </p>
+
+    <h2>📩 Contact</h2>
+    <p>
+      Email:
+      <a href="mailto:support@perez.one">support@perez.one</a>
+    </p>
+    <p>
+      Questions, bug reports and requests all land in the same inbox, and a real
+      person reads them.
+    </p>
+
+    <h2>🔧 Technical info</h2>
+    <div>
+      <span class="pill">No accounts</span>
+      <span class="pill">No ads</span>
+      <span class="pill">No tracking</span>
+      <span class="pill">No third-party SDKs</span>
+      <span class="pill">Your data stays on your device</span>
+    </div>
+    <p>
+      AnaLog is built for iPhone and requires <strong>iOS 18.6</strong> or later.
+      The home screen widget needs <strong>iOS 26.2</strong> or later — on an
+      earlier version the app works fully and the widget is simply unavailable.
+    </p>
+
+    <h2>❓ Common questions</h2>
+
+    <p class="q">New film stocks appeared without an app update. How?</p>
+    <p>
+      The film catalog is published separately from the app, so new stocks can be
+      added at any time. AnaLog fetches it in the background; there is nothing to
+      do and no account involved.
+    </p>
+
+    <p class="q">My film isn't in the catalog.</p>
+    <p>
+      Send the brand, name, ISO and process to the address above and it can be
+      added for everyone. In the meantime the roll can be logged with the closest
+      match and corrected later.
+    </p>
+
+    <p class="q">How do scans get matched to frames?</p>
+    <p>
+      By frame number. When you export, the scan whose filename ends in a given
+      number receives that frame's metadata — so a gap in the log is a gap in the
+      run rather than everything after it shifting by one. Scans that match no
+      logged frame are carried through untouched rather than left behind.
+    </p>
+
+    <p class="q">Does the export change my original files?</p>
+    <p>
+      Only in the mode that says so. AnaLog offers sidecar files, an archive copy,
+      or writing into the RAW files themselves, and the destructive one is named
+      and described before you choose it. The included instructions explain what
+      each mode does to your files.
+    </p>
+
+    <p class="q">Where is my data, and how do I get it out?</p>
+    <p>
+      On your iPhone, and nowhere else. Settings has a backup export that writes
+      your whole log to a single file you can keep or move to another device.
+    </p>
+
+    <h2>📄 Privacy</h2>
+    <p>
+      AnaLog has no accounts, no analytics and no advertising, and sends none of
+      your data anywhere. The full policy, including exactly what the camera,
+      location and photo library permissions are used for:
+      <a href="/analog/privacy.html">Privacy Policy</a>
+    </p>
+
+    <h2>🆘 If something goes wrong</h2>
+    <p>Worth trying first:</p>
+    <ul>
+      <li>Restart the iPhone</li>
+      <li>Check that you are on the latest version of iOS and of AnaLog</li>
+      <li>Take a backup from Settings before anything drastic</li>
+    </ul>
+
+    <p>
+      If it persists, email the address above with:
+    </p>
+    <ul>
+      <li>iPhone model and iOS version</li>
+      <li>What you did just before it happened</li>
+      <li>A screenshot or screen recording if you have one</li>
+    </ul>
+    <p>
+      <strong>Please do not delete and reinstall the app to fix a problem before
+      taking a backup.</strong> Your log lives on the device, so reinstalling
+      clears it.
+    </p>
+  </div>
+
+</body>
+</html>

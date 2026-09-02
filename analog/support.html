@@ -97,6 +97,32 @@
       earlier version the app works fully and the widget is simply unavailable.
     </p>
 
+    <h2>🖥 AnaLog Metadata for Mac</h2>
+    <p>
+      A free companion app that writes your logged frame data into your scanned
+      film files. Unzip an AnaLog export into the folder with your scans, drag
+      that folder onto the app, and your shot dates, exposure settings and GPS
+      go into the files before you import them.
+    </p>
+    <p>
+      <strong><a href="https://github.com/alekperez/AnaLog-Metadata/releases/latest">Download AnaLog Metadata</a></strong>
+      — requires macOS 13 (Ventura) or later.
+    </p>
+    <div>
+      <span class="pill">Nothing else to install</span>
+      <span class="pill">Notarised by Apple</span>
+      <span class="pill">Your originals are kept</span>
+      <span class="pill">Works offline</span>
+    </div>
+    <p>
+      Everything happens on your Mac — the app makes no network connections. Your
+      original scans are always kept, either in an <strong>Original RAWs</strong>
+      folder or as <strong>_original</strong> copies beside each file, depending
+      on the export mode you chose. Metadata is written using
+      <a href="https://exiftool.org">ExifTool</a> by Phil Harvey, which is
+      included, so there is nothing to set up first.
+    </p>
+
     <h2>❓ Common questions</h2>
 
     <p class="q">New film stocks appeared without an app update. How?</p>
@@ -119,6 +145,14 @@
       number receives that frame's metadata — so a gap in the log is a gap in the
       run rather than everything after it shifting by one. Scans that match no
       logged frame are carried through untouched rather than left behind.
+    </p>
+
+    <p class="q">Do I need the Mac app to use the export?</p>
+    <p>
+      No. Every export includes a script you can run yourself, and the instructions
+      in the zip explain how. The Mac app exists because macOS refuses to launch a
+      downloaded script by double-click, which left the script needing Terminal —
+      the app removes that step, and installs nothing on your system.
     </p>
 
     <p class="q">Does the export change my original files?</p>

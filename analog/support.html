@@ -58,6 +58,32 @@
     .q + p {
       margin-top: 0;
     }
+
+    table {
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 15px;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 8px 16px 8px 0;
+      border-bottom: 1px solid #ebebed;
+      vertical-align: top;
+    }
+
+    th {
+      font-weight: 600;
+      color: #6e6e73;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .state {
+      font-weight: 600;
+      white-space: nowrap;
+    }
   </style>
 </head>
 <body>
@@ -101,10 +127,43 @@
     <h2 id="mac">🖥 AnaLog Metadata for Mac</h2>
     <p>
       A free companion app that writes your logged frame data into your scanned
-      film files. Unzip an AnaLog export into the folder with your scans, drag
-      that folder onto the app, and your shot dates, exposure settings and GPS
+      film files. Export a roll from AnaLog, open the <strong>.analog</strong> file
+      on your Mac, choose what should happen to your files, and drop the folder
+      with your scans onto the window. Your shot dates, exposure settings and GPS
       go into the files before you import them.
     </p>
+    <p>
+      <strong>You choose what happens to your files at the Mac, not on your
+      phone</strong> — in front of the folder, once you can see what is in it.
+    </p>
+    <table>
+      <tr>
+        <th>Mode</th>
+        <th>What it does to your files</th>
+      </tr>
+      <tr>
+        <td class="state">Sidecars only</td>
+        <td>
+          Your files are not touched. Only the title, caption and keywords reach
+          Lightroom — it takes everything else from the RAW itself.
+        </td>
+      </tr>
+      <tr>
+        <td class="state">Archive &amp; copy</td>
+        <td>
+          Originals move to a folder of their own, and dated working copies carry
+          the full shot data. Uses twice the disk space. <strong>This is the one to
+          pick if you are not sure.</strong>
+        </td>
+      </tr>
+      <tr>
+        <td class="state">Overwrite RAWs</td>
+        <td>
+          Writes the shot data into your RAW files, keeping a named backup copy of
+          each one first.
+        </td>
+      </tr>
+    </table>
     <p>
       <strong><a href="https://github.com/alekperez/AnaLog-Metadata/releases/latest">Download AnaLog Metadata</a></strong>
       — requires macOS 13 (Ventura) or later.
@@ -119,9 +178,63 @@
       Everything happens on your Mac — the app makes no network connections. Your
       original scans are always kept, either in an <strong>Original RAWs</strong>
       folder or as <strong>_original</strong> copies beside each file, depending
-      on the export mode you chose. Metadata is written using
+      on the mode you pick. Metadata is written using
       <a href="https://exiftool.org">ExifTool</a> by Phil Harvey, which is
       included, so there is nothing to set up first.
+    </p>
+
+    <h2 id="negativelabpro">🎞 Three settings in Negative Lab Pro</h2>
+    <p>
+      If you convert with Negative Lab Pro, these three decide whether the data in
+      your files survives into your finished pictures. <strong>Two of them are
+      switches you have to turn off.</strong>
+    </p>
+    <table>
+      <tr>
+        <th>Where</th>
+        <th>Setting</th>
+        <th>Set to</th>
+      </tr>
+      <tr>
+        <td>NLP ▸ Advanced</td>
+        <td>Exclude NLP Metadata</td>
+        <td class="state">On</td>
+      </tr>
+      <tr>
+        <td>Export window</td>
+        <td>Remove Location Info</td>
+        <td class="state">Off</td>
+      </tr>
+      <tr>
+        <td>Export window</td>
+        <td>Write EXIF Fields with Custom Metadata</td>
+        <td class="state">Off</td>
+      </tr>
+    </table>
+    <p>What each one costs if it is set the other way:</p>
+    <ul>
+      <li>
+        <strong>Exclude NLP Metadata, off.</strong> NLP builds the positive copy's
+        EXIF from its own set and flushes out what was in the source. ISO, aperture,
+        shutter and lens go missing from the TIFF.
+      </li>
+      <li>
+        <strong>Remove Location Info, on.</strong> GPS is stripped when you export,
+        even with the metadata dropdown on “All Metadata”. That checkbox overrides
+        the dropdown.
+      </li>
+      <li>
+        <strong>Write EXIF Fields with Custom Metadata, on.</strong> It fills camera,
+        lens, focal length, ISO and exposure from NLP's own custom metadata fields.
+        If you have not typed anything into those fields, it writes blank over good
+        values. <strong>This one is invisible until the other two are fixed</strong>
+        and the file finally has something to lose.
+      </li>
+    </ul>
+    <p>
+      With all three set, a JPEG exported at the end of the chain carries the ISO,
+      aperture, shutter, lens, GPS, altitude, title, keywords and shot time from
+      AnaLog.
     </p>
 
     <h2>❓ Common questions</h2>

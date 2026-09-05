@@ -133,14 +133,14 @@
       go into the files before you import them.
     </p>
     <p>
-      <strong>You choose what happens to your files at the Mac, not on your
-      phone</strong> — in front of the folder, once you can see what is in it.
+      <strong>You choose what happens at the Mac, not on your phone</strong> — in
+      front of the folder, once you can see what is in it. The app asks what kind
+      of files you have, because the answer changes what is possible.
     </p>
+
+    <p class="q">RAW scans — from your own scanner, or raw files from the lab</p>
     <table>
-      <tr>
-        <th>Mode</th>
-        <th>What it does to your files</th>
-      </tr>
+      <tr><th>Mode</th><th>What it does to your files</th></tr>
       <tr>
         <td class="state">Sidecars only</td>
         <td>
@@ -165,6 +165,40 @@
       </tr>
     </table>
     <p>
+      <strong>The film camera is not written into a RAW, and that is deliberate.</strong>
+      Camera and model are the key Adobe picks a decoder with, so a film compact
+      there makes the file unopenable in Lightroom — measured on a real roll. It
+      reaches Lightroom as a keyword instead, and the section below puts it back on
+      the finished picture, where it is safe.
+    </p>
+
+    <p class="q">Finished JPEGs or TIFFs — scans from a lab, or your own exports</p>
+    <table>
+      <tr><th>Mode</th><th>What it does to your files</th></tr>
+      <tr>
+        <td class="state">Write into the files</td>
+        <td>
+          Everything goes straight into the photographs, the film camera included.
+          Nothing else is left in the folder.
+        </td>
+      </tr>
+      <tr>
+        <td class="state">Write into copies</td>
+        <td>
+          Your photographs move to <strong>Original Photos</strong> untouched, and
+          copies carrying the AnaLog data go in <strong>AnaLog Photos</strong>.
+          Pick this if these are the only copies you have.
+        </td>
+      </tr>
+    </table>
+    <p>
+      No sidecars are written here — a JPEG holds everything itself, so a file
+      beside it would only be one more thing in the folder.
+      <strong>You do not have to pick this yourself:</strong> drop a folder of
+      JPEGs and the app switches, and says that it did.
+    </p>
+
+    <p>
       <strong><a href="https://github.com/alekperez/AnaLog-Metadata/releases/latest">Download AnaLog Metadata</a></strong>
       — requires macOS 13 (Ventura) or later.
     </p>
@@ -181,6 +215,30 @@
       on the mode you pick. Metadata is written using
       <a href="https://exiftool.org">ExifTool</a> by Phil Harvey, which is
       included, so there is nothing to set up first.
+    </p>
+
+    <h2 id="secondpass">🔁 Putting the film camera on your finished pictures</h2>
+    <p>
+      If you shoot RAW, there is one thing the first pass cannot do: write the film
+      camera into the file. Run AnaLog Metadata a second time on your finished
+      exports and it goes in — along with anything Lightroom or Negative Lab Pro
+      dropped on the way.
+    </p>
+    <ol>
+      <li>Run your RAW scans through as usual, and develop them in Lightroom.</li>
+      <li>Export as you normally would. <strong>The filenames do not matter.</strong></li>
+      <li>Open the same <strong>.analog</strong> file again and drop the folder of exports.</li>
+    </ol>
+    <p>
+      Your exports are matched to their frames by <strong>capture date</strong> —
+      which AnaLog wrote into the RAW on the first pass and Lightroom carried
+      through — so whatever your export preset renamed them to makes no difference.
+      Files it cannot place are named and left alone rather than guessed at.
+    </p>
+    <p>
+      <strong>If a lab sends you JPEGs</strong> and you never touch a RAW at all,
+      this is not an extra step: it is your only one. Choose <em>Finished JPEGs or
+      TIFFs</em> and everything goes in at once.
     </p>
 
     <h2 id="negativelabpro">🎞 Three settings in Negative Lab Pro</h2>

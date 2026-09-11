@@ -96,7 +96,8 @@
       AnaLog is a logbook for film photography: track a roll from the fridge
       through loading, shooting, the lab and scanning, log each frame with its
       exposure, and export the whole roll's metadata to Lightroom or Capture One
-      when the scans come back.
+      when the scans come back — that last step finishes on a Mac, with a free
+      companion app.
     </p>
 
     <h2>📩 Contact</h2>
@@ -352,18 +353,21 @@
 
     <p class="q">Do I need the Mac app to use the export?</p>
     <p>
-      No. Every export includes a script you can run yourself, and the instructions
-      in the zip explain how. The Mac app exists because macOS refuses to launch a
-      downloaded script by double-click, which left the script needing Terminal —
-      the app removes that step, and installs nothing on your system.
+      Yes. AnaLog on iPhone writes a single <code>.analog</code> file holding everything
+      it knows about the roll — every frame, its exposure, its date and its location.
+      <strong>AnaLog Metadata</strong>, a free companion app for macOS, is what turns
+      that into something your editor can read: sidecar files for Lightroom or Capture
+      One, or the data written straight into your scans. You choose which, on the Mac.
+      The helper installs nothing on your system and the download is linked in AnaLog
+      under Settings.
     </p>
 
     <p class="q">Does the export change my original files?</p>
     <p>
-      Only in the mode that says so. AnaLog offers sidecar files, an archive copy,
-      or writing into the RAW files themselves, and the destructive one is named
-      and described before you choose it. The included instructions explain what
-      each mode does to your files.
+      Only in the modes that say so. The mode is chosen in AnaLog Metadata on your Mac,
+      and each one names what it will do before it runs — sidecar files written beside
+      your scans, copies with the data written in, or writing into the originals
+      themselves. The destructive one is named and described before you choose it.
     </p>
 
     <p class="q">Where is my data, and how do I get it out?</p>
